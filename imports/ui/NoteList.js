@@ -37,8 +37,7 @@ export default createContainer(() => {
   const selectedNoteId = Session.get('selectNodeId')
   Meteor.subscribe('notes')
   return {
-    notes: Notes.find().fetch().map((notes) => {
-      
+    notes: Notes.find({},{sort:{updatedAt: -1}}).map((notes) => {
       return {
         ...notes,
         selected: notes._id === selectedNoteId
