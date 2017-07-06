@@ -1,13 +1,12 @@
 .header {
-  background-color: $brand-primary;
-  color: white;
-
-
+  background-color: $brand-bg;
+  color: $header-color;
 
 }
 
 .header__content {
   display: flex;
+  height: $head-heigh;
   justify-content: space-between;
   margin: 0 auto;
   padding: 1rem 15rem;
