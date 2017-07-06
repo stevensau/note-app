@@ -12,7 +12,19 @@
   padding: 1rem 15rem;
   max-width: $site-max-width;
   padding: $space;
+  align-items: center;
 }
 .header__title {
     margin: 0;
+}
+
+.header__nav-toggel {
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+
+  @include desktop{
+    display: none;
+  }
+
 }
