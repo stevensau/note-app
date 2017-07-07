@@ -15,7 +15,7 @@ meteor
 ```
 
 
-##Running Tests
+## Running Tests
 
 To perform all unit tests all you need to do is run:
 ```
